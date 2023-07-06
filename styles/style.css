@@ -99,10 +99,6 @@
   background-color: #f2f2f2;
 }
 
-.events:hover {
-  color: #1f69c9;
-}
-
 .events__content {
   flex-basis: 580px;
 }
@@ -162,6 +158,10 @@
 .events__more {
   color: #2f80ed;
   text-decoration: none;
+}
+
+.events__more:hover {
+  color: #c1c1c1;
 }
 
 .events__cover {
@@ -260,7 +260,7 @@
 
 /* Add the CSS rule for your new class here. Make sure to place it before .card: parents should precede their children */
 
-.card__content_container {
+.staff__cards {
   max-width: 760px;
   display: flex;
   flex-wrap: wrap;
