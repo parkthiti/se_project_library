@@ -30,9 +30,10 @@
 
 .nav__links {
   list-style-type: none;
-  margin: 8px;
+  margin: 8px 0 0;
   display: flex;
-  gap: 20px;
+  column-gap: 20px;
+  padding: 0;
 }
 
 .nav__link {
@@ -196,19 +197,16 @@
 }
 
 .person_name_cannon {
-  position: absolute;
   right: 216px;
   bottom: 18px;
 }
 
 .person_name_mitchell {
-  position: absolute;
   bottom: 82px;
   left: 142px;
 }
 
 .person_name_tarter {
-  position: absolute;
   top: 79px;
   left: 159px;
 }
@@ -331,7 +329,7 @@
 
 .step {
   flex-basis: 220px;
-  gap: 40px;
+  padding-right: 40px;
 }
 
 .step__title {
@@ -443,6 +441,7 @@
 .footer__column-heading {
   font-size: 16px;
   line-height: 20px;
+  margin: 0 0 20px;
 }
 
 .footer__column-link {
@@ -465,5 +464,5 @@
 }
 
 .footer__copyright {
-  margin-top: 108px;
+  margin: 108px 0 0;
 }
