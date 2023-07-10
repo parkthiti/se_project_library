@@ -329,7 +329,11 @@
 
 .step {
   flex-basis: 220px;
-  padding-right: 40px;
+  gap: 40px;
+}
+
+.step:last-child {
+  flex-basis: 220px;
 }
 
 .step__title {
